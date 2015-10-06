@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace lja.quittung.UI
@@ -16,7 +13,10 @@ namespace lja.quittung.UI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new QuittungControl());
+            using (var quittungControl = new QuittungControl())
+            {
+                Application.Run(quittungControl);
+            }
         }
     }
 }
