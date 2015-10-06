@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Quittung>
+  <Betrag>23.23</Betrag>
+  <Name>Lino</Name>
+  <Verwendungszweck>Test</Verwendungszweck>
+  <Datum>2011-11-30T00:00:00+01:00</Datum>
+</Quittung>
